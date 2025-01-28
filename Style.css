@@ -25,14 +25,48 @@ section {
   max-width: 340px;
 }
 
+.container1 {
+  position: relative;
+  display: inline-block;
+}
+
 .equilibrium-image {
+  display: block;
   width: 300px;
   height: 300px;
   border-radius: 10px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: hsla(178, 100%, 50%, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+
 .container2 {
   margin-top: 20px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .container2 > p:first-of-type {
@@ -87,8 +121,17 @@ section {
   margin-right: 10px;
 }
 
-.image-avatar span {
+.image-avatar {
   color: hsl(215, 51%, 70%);
+}
+
+.image-avatar span {
+  color: hsl(0, 0%, 100%);
+}
+
+.image-avatar span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
 }
 
 .attribution {
