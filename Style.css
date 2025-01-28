@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(0, 0%, 100%);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 12px;
+  max-width: 340px;
+}
+
+.equilibrium-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.container2 {
+  margin-top: 20px;
+}
+
+.container2 > p:first-of-type {
+  padding: 20px 0;
+  color: hsl(215, 51%, 70%);
+}
+
+.subcontainer1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 2;
+  padding-bottom: 20px;
+}
+
+.ethereum {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: hsl(178, 100%, 50%);
+}
+
+.ethereum p {
+  padding-left: 6px;
+}
+
+.clock {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+}
+
+.clock p {
+  padding-left: 6px;
+}
+
+.subcontainer2 {
+  border-top: 1px solid hsl(215, 51%, 70%);
+}
+
+.image-avatar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-top: 12px;
+}
+
+.image-avatar img {
+  width: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-right: 10px;
+}
+
+.image-avatar span {
+  color: hsl(215, 51%, 70%);
+}
+
+.attribution {
+  color: hsl(0, 0%, 100%);
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(75, 94%, 57%);
+  text-decoration: none;
+  cursor: pointer;
+}
