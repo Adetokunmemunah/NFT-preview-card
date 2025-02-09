@@ -14,7 +14,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 100px auto;
+  margin: 80px auto 10px;
 }
 
 section {
@@ -22,7 +22,7 @@ section {
   padding: 20px;
   margin-bottom: 10px;
   border-radius: 12px;
-  max-width: 340px;
+  max-width: 320px;
 }
 
 .container1 {
@@ -32,8 +32,8 @@ section {
 
 .equilibrium-image {
   display: block;
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 250px;
   border-radius: 10px;
 }
 
